@@ -130,7 +130,64 @@
 }
 
 
+/* extra-small devices */
+@media all and (max-width: 641px){
+    .section, .section-center{
+        margin-left: 0;
+        margin-right: 0;
+    }
 
+    .image-player{
+        width: 50px;
+    }
+    
+    .text-song p{
+        font-size: 12px;
+    }
+
+    .song-starter a{
+        font-size: 18px;
+        margin: 6px;
+    }
+
+    .song-bar p{
+        font-size: 12px;
+    }
+
+    .volume-section a{
+        margin: 0;
+    }
+
+    .sidebar{
+        width: 30px;;
+    }
+    
+    .content{
+        width: calc(100% - 30px);
+    }   
+    
+}
+
+
+/* medium devices */
+@media all and (max-width: 1001px){
+    .section-center{
+        width: 35%;
+    }
+
+    .text-song a{
+        display: block;
+    }
+
+    .volume-section a{
+        font-size: 14px;
+    }
+
+    .volume-bar{
+        width: 50px;
+    }
+
+}
 
 
 
