@@ -158,6 +158,7 @@
 .album-covers{
     margin: 12px;
     text-align: center;
+    position: relative;
 }
 .album-covers p{
     color: #a3a3a3;
@@ -179,6 +180,18 @@
 }
 .rounded{
     border-radius: 50%;
+}
+
+.play-btn{
+    display: none;
+}
+
+.play:hover .play-btn{
+    display: inline-block;
+    position: absolute;
+    font-size: 50px;
+    top:22%;
+    left: 39%;
 }
 /* song-player */
 .gray-box{
