@@ -56,6 +56,10 @@
     color: #a3a3a3;
     margin-bottom: 18px;
 }
+.green-side{
+    border-left: 6px solid green;
+}
+
 .side-menu h2:hover{
     color: white;
 }
@@ -113,7 +117,9 @@
     background-color: #080b12;
     position: relative;
 }
-
+.down-green{
+    border-bottom: 4px solid green;
+}
 .btn {
 	display: inline-block;
 	border-radius: 25px;
