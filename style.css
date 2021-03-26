@@ -116,6 +116,7 @@
 .upgrade-bar{
     background-color: #080b12;
     position: relative;
+    height: 100px;
 }
 .down-green{
     border-bottom: 4px solid green;
@@ -137,16 +138,23 @@
 }
 .btn-primary {
 	background-color: transparent;
-	color: #FFF;
+	color: #a3a3a3;
     border: 1px solid white;
     margin: 8px;
+    margin-top: 20px;
     float: right;
 }
+.btn-primary:hover{
+    color: white;
+    font-size: 20px;
+} 
+
 .music-menu{
     width: 100%;
 }
 .music-menu-text{
     text-align: center;
+    margin-top: 12px;
 }
 .music-menu-text h4:hover{
     text-decoration: underline 4px green;
@@ -273,10 +281,13 @@
 }
 .song-starter{
     text-align: center;
+    height: 46px;
 }
 .song-starter a{
     font-size: 25px;
     margin: 10px;
+    vertical-align: middle;
+    display: inline-block;
 }
 #big-play{
     font-size: 35px;
