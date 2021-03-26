@@ -129,7 +129,12 @@
 	text-decoration: none;
 	text-transform: uppercase;
 }
-
+.white-hover:hover{
+    color: white;
+}
+.underline:hover{
+    border-bottom: 1px solid white;
+}
 .btn-primary {
 	background-color: transparent;
 	color: #FFF;
@@ -145,6 +150,7 @@
 }
 .music-menu-text h4:hover{
     text-decoration: underline 4px green;
+    color: white;
 }
 .music-menu h4{
     display: inline-block;
